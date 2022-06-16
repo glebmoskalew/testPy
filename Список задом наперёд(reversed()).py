@@ -1,8 +1,8 @@
-# Можно обратить вспять обычный список: 
-seasons = ['зима', 'весна', 'лето', 'осень']
+countdown_str = ''
 
-for season in reversed(seasons):  
-    # Переменную цикла, в которую 
-    # будут передаваться элементы "перевёрнутого" списка seasons,
-    # назовём season
-    print(season) 
+for i in reversed(range(0,11)):
+    countdown_str = countdown_str + str(i) + ', '
+
+
+countdown_str = countdown_str + str()
+print(countdown_str, 'поехали!')
